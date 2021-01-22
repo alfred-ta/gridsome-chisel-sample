@@ -1,21 +1,19 @@
 <template>
   <Layout>
     <div class="container justify-center content-center grid grid-cols-1 py-10 px-auto markdown px-6 xl:px-12 w-full max-w-3xl mx-auto xl:w-3/4">
-      <h1 class="text-2xl mb-2 text-center text-primary">{{$page.stage.title}}</h1>
-      <p class="font-light text-sm text-center text-gray mb-6"> Posted on {{$page.satge.date}} </p>
+      <h1 class="text-2xl mb-2 text-center text-primary">{{$page.stage.name}}</h1>
+      <p class="font-light text-sm text-center text-gray mb-6"> Posted on {{$page.satge.code}} </p>
       <div id="body" class="max-auto-sm text-left" v-html="body" />
     </div>
   </Layout>
 </template>
 
 <page-query>
-  query Stage ($path: String!) {
-    stage: chiselStage (path: $path) {
+  query Stage ($id: ID) {
+    stage: chiselStage (id: $id) {
       id,
       name,
-      slug,
-      date (format: "MMMM DD, YYYY"),
-      path
+      slug
     }
   }
 </page-query>

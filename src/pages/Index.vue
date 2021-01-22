@@ -5,9 +5,14 @@
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center justify-between text-center md:text-left pb-10">
           <p class="uppercase tracking-loose w-full text-primary">Headline text</p>
-          <h1 class="py-4 text-5xl font-bold leading-tight w-full text-primary">My Blog Site!!</h1>
-          <p class="leading-normal text-2xl pb-8 w-full text-primary">Subtitle</p>
-          <g-link class="text-2xl justify-center" to="/blog"><button class="bg-primary text-white font-bold  hover:bg-darkgray rounded-full my-6 py-4 px-8 shadow-lg ">Blog</button></g-link>
+          <h1 class="py-4 text-5xl font-bold leading-tight w-full text-primary">Alfred loves Chisel!!</h1>
+          <p class="leading-normal text-2xl pb-8 w-full text-primary">and Gridsome, too</p>
+          <g-link class="text-2xl justify-center" to="/stages">
+            <button class="bg-primary font-bold  hover:bg-darkgray rounded-full my-6 py-4 px-8 shadow-lg ">Stages</button>
+          </g-link>
+          <g-link class="text-2xl justify-center" to="/challenges">
+            <button class="bg-primary font-bold  hover:bg-darkgray rounded-full my-6 py-4 px-8 shadow-lg ">Challenges</button>
+          </g-link>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">

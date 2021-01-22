@@ -8,7 +8,7 @@ const tailwindcss = require("tailwindcss")
 module.exports = {
   siteName: 'Gridsome',
   templates: {
-    ChiselStage: '/blog/:slug'
+    ChiselStage: '/stages/:slug'
   },
   plugins: [
     {

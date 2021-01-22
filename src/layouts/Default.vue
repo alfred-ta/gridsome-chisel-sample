@@ -29,13 +29,13 @@
 
     <slot/>
     <footer class="mt-20 font-light text-gray w-full text-center border-grey p-4 pin-b text-primary">
-      <p class="text-sm">Copyright © ADD YOUR NAME HERE 2020</p>
+      <p class="text-sm">Copyright © alfred 2021</p>
       <div class="justify-between hover-blue space-x-3">
       <a href="your github"> <font-awesome :icon="['fab', 'github']"/> </a>
       <a href="your twitter url"><font-awesome :icon="['fab', 'twitter']"/></a>
       </div>
       <div>
-        <p class="font-light text-sm">Developed using Gridsome, Tailwindcss, and Contentful</p>
+        <p class="font-light text-sm">Developed using Gridsome, Tailwindcss, and Chisel</p>
       </div>
     </footer>
   </div>

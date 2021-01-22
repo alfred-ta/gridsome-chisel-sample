@@ -6,13 +6,13 @@
         <!--
         -->
         <div class=" text-darkgray"> 
-          <p>Add your info here
+          <p>Alfred Takala
           </p>
           <br>
-          <p>Add your info here
+          <p>JS guy
           </p>
           <br>
-          <p>Add your info here
+          <p>FEAR = Face Everything And Rise
           </p>
         </div>
       </div>
