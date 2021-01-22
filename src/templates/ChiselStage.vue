@@ -3,7 +3,6 @@
     <div class="container justify-center content-center grid grid-cols-1 py-10 px-auto markdown px-6 xl:px-12 w-full max-w-3xl mx-auto xl:w-3/4">
       <h1 class="text-2xl mb-2 text-center text-primary">{{$page.stage.name}}</h1>
       <p class="font-light text-sm text-center text-gray mb-6"> Posted on {{$page.stage.slug}} </p>
-      <div id="body" class="max-auto-sm text-left" v-html="body" />
     </div>
   </Layout>
 </template>
@@ -22,13 +21,7 @@
   import MarkdownIt from "markdown-it";
 
   export default {
-    computed: {
-      body() {
-        const md = new MarkdownIt();
 
-        return md.render(this.$page.post.body);
-      }
-    }
   };
 </script>
 
