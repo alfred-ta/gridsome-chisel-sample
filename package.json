@@ -11,6 +11,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
     "gridsome": "^0.7.0",
+    "gridsome-source-alfredtakala-chisel": "^1.0.0",
     "markdown-it": "^12.0.4",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"

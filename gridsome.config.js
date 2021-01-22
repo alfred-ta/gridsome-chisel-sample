@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     {
-      use: "@gridsome/source-chisel",
+      use: "gridsome-source-alfredtakala-chisel",
       options: {
         typeName: "Chisel",
         appId: process.env.CHISEL_APP_ID,
