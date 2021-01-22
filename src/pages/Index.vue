@@ -13,6 +13,9 @@
           <g-link class="text-2xl justify-center" to="/challenges">
             <button class="bg-primary font-bold  hover:bg-darkgray rounded-full my-6 py-4 px-8 shadow-lg ">Challenges</button>
           </g-link>
+          <g-link class="text-2xl justify-center" to="/speaker">
+            <button class="bg-primary font-bold  hover:bg-darkgray rounded-full my-6 py-4 px-8 shadow-lg ">Speakers</button>
+          </g-link>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
