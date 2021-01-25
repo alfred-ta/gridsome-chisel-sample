@@ -11,8 +11,9 @@
                 <p class="pt-5 text-darkgray"> Company: {{node.company}} </p>
                 <p class="pt-5 text-darkgray"> Bio: {{node.bio}} </p>
               </div>
+              <img class="w-full md:w-5/5 z-50" v-if="node.image_square && node.image_square.file && node.image_square.file._url"
+                :src="node.image_square.file._url">
             </li>
-
           </ul>
 
       </div>
@@ -29,7 +30,12 @@
           name,
           title,
           company,
-          bio
+          bio,
+          image_square {
+            file {
+              _url
+            }
+          }
         }
       }
     }
@@ -40,6 +46,10 @@
   export default {
     metaInfo: {
       title: 'Speaker'
-    }
+    },
+    method: {
+      
+    } 
+
   }
 </script>

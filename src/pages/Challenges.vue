@@ -26,7 +26,8 @@
         node {
           id,
           Name,
-          Code
+          Code,
+          Points
         }
       }
     }
