@@ -41,7 +41,7 @@
     },
     methods: {
       getPath(id) {
-        return `/stage/${id}`;
+        return `/stages/${id}`;
       }
     }
   }
