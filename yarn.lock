@@ -4351,10 +4351,10 @@ graphql@^14.4.2:
   dependencies:
     iterall "^1.2.2"
 
-gridsome-source-alfredtakala-chisel@^1.0.0:
+gridsome-source-chisel@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gridsome-source-alfredtakala-chisel/-/gridsome-source-alfredtakala-chisel-1.0.0.tgz#f3c48ec24f0ace00e54782153b92d00ff2044ed2"
-  integrity sha512-sfUp+3Ehei/pLl3SiuyraJZShUpBT30QnWtLrxwMHm/iQGaywlPH8lgZlKvTVMOFw7aOy5C2iGPy7ui9rHb9kg==
+  resolved "https://registry.yarnpkg.com/gridsome-source-chisel/-/gridsome-source-chisel-1.0.0.tgz#056f7cb0bf7bdd4a47c40578f0d4730b8e90a547"
+  integrity sha512-LhbLPn9cm0Ff4WFNSk3goS732PEIpCsP8xPMBVp15YjI1bATNnCsYe/ZcCRl60pmiJSEQ2d+8filTe64xa8DTQ==
   dependencies:
     camelcase "^6.2.0"
     parse "^2.19.0"
